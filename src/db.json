@@ -1,0 +1,11 @@
+{ 
+   "coursat" :[
+       {"id": 1, "title": "React Basics", "description": "Learn React from scratch", 
+       "instructor": "Mohamed Farag", "duration": "4 weeks" },
+       {"id": 2, "title": "React Advanced", "description": "Learn React advanced topics",
+         "instructor": "Mohamed Farag", "duration": "4 weeks" },
+         {"id": 3, "title": "Redux Basics", "description": "Learn Redux from scratch",
+            "instructor": "Mohamed Farag", "duration": "4 weeks" }
+   ]
+}
+  
