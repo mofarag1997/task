@@ -62,7 +62,6 @@ const HandleAdded = () => {
   return (
     <div className="text-center bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen py-4 overflow-x-auto">
       {/* عنوان الصفحة */}
-      <h2 className="text-3xl font-bold mb-4 text-white text-center">Course List</h2>
       {/* حقل البحث */}
       <input
         type="text"
@@ -72,6 +71,7 @@ const HandleAdded = () => {
         value={search}
         onChange={(e) => setSearch(e.target.value)} // تحديث حالة البحث لما المستخدم يكتب
       />
+        <h2 className="text-3xl font-bold mb-4 text-white text-center">Course List</h2>
       <div className="flex justify-center overflow-x-auto">
         {/* جدول عرض الكورسات */}
         <table className="shadow-lg rounded-lg w-full sm:w-auto">
