@@ -1,12 +1,19 @@
-# React + Vite
+This project is a Course Management Dashboard built using React-vite
+It allows administrators to manage programming courses efficiently by providing features to view, add, edit, and delete courses.
+The dashboard offers a clean and responsive user interface using Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used :
 
-Currently, two official plugins are available:
+React for building the front-end interface.
+Redux Toolkit for state management.
+Axios for API calls.
+db.json for mock API simulation.
+Tailwind CSS for responsive and clean UI design.
+React Hooks (useState & useEffect) for managing component state and side effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+installation :
+clone my project from [ git clone https://github.com/mofarag1997/task.git ]
+Navigate to the project directory: [ cd task ]
+Install dependencies: npm install
+Start the JSON server : npx json-server --watch src/server/db.json --port 4004
+Start the React-vite application: npm run dev
