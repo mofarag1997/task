@@ -1,6 +1,6 @@
 This project is a Course Management Dashboard built using React-vite\
 It allows administrators to manage programming courses efficiently by providing features to view, add, edit, and delete courses\
-The dashboard offers a clean and responsive user interface using Tailwind CSS\
+The dashboard offers a clean and responsive user interface using Tailwind CSS
 
 Technologies Used :\
 React for building the front-end interface\
